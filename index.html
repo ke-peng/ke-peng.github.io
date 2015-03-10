@@ -1,7 +1,83 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+
+<title></title>
+
+
 <body>
-<h1>Hello World</h>
-<p>I'm hosted with GitHub Pages.</p>
+<div class="random" id="r1">
+<img src="http://i.imgur.com/to6j1pr.jpg" id="img1" style="width:100%" /></div>
+<div class="random" id="r2">
+<img src="http://i.imgur.com/RDLlkcV.jpg" id="img2" style="width:100%" /></div>
+<div class="random" id="r3">
+<img src="http://i.imgur.com/1KGRudU.jpg" id="img3" style="width:100%"/>
+</div>
+<div class="random" id="r4">pic 4</div>
+
 </body>
+  
+  
+<style>
+html,body {
+    height:100%;
+    margin:0;
+    background-color:#c3efcc;
+}
+.random {
+    position:absolute;
+    padding: 10px;
+    border:1px dotted #666;
+    background-color:#defcff;
+    box-shadow:5px 5px 5px #999;
+ }
+
+  
+#r1{  width:500px; }
+#r2{  width:400px; }
+#r3{  width:600px; }
+#r4{  width:400px; }
+
+</style>
+
+<script>
+
+function init(){
+
+   w=document.body.offsetWidth;
+   h=document.body.offsetHeight;
+   rd=document.getElementsByTagName('div');
+
+for(c=0;c<rd.length;c++) {
+if(rd[c].className=='random') {
+   xCoord=Math.floor(Math.random()*w);
+   yCoord=Math.floor(Math.random()*h);
+
+if(xCoord>=w-rd[c].offsetWidth-10){
+   xCoord=w-rd[c].offsetWidth-10;
+ }
+if(xCoord<=10){
+   xCoord=10;
+ }
+
+if(yCoord>=h-rd[c].offsetHeight-10){
+   yCoord=h-rd[c].offsetHeight-10;
+ }
+if(yCoord<=10){
+   yCoord=10;
+ }
+
+   rd[c].style.left=xCoord+'px';
+   rd[c].style.top=yCoord+'px';
+   }
+  }
+ }
+   window.addEventListener?
+   window.addEventListener('load',init,false):
+   window.attachEvent('onload',init);
+</script>
+
+</head>
 </html>
