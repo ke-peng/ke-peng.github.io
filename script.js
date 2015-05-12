@@ -72,5 +72,8 @@ $(function() {
     });
 });
 
+// HIDE ABOUT ME
+
+$(".about").hide();
 
 }); // KEEP ALL CODING BEFORE THIS CLOSING TAG
