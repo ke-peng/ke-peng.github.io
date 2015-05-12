@@ -64,7 +64,7 @@ $.fn.bounce = function(options) {
         move($this);
     });
 
-};
+});
 
 $(function() {
     $('#wrapper li').bounce({
