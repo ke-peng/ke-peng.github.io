@@ -55,9 +55,19 @@ li {
     background:yellow;
 }
 
-.button {
+.button_wrapper {
     position:absolute;
     top:50px; left:50px;
-    width:50px; height:25px;
+    width:180px; height:70px;
     background:white;
+}
+
+
+.button {
+    position:absolute;
+    top:50%;left:50%;
+    margin-top:-10px;
+    margin-left:-50px;
+    width:100px; height:20px;
+    text-align:center;
 }
