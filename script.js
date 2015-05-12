@@ -77,7 +77,7 @@ $(".about").hide();
 
 // CLICK TO SHOW ABOUT ME
 
-$(".button")click(function() {
+$(".button").click(function() {
     $(".about").show();
 });
 
