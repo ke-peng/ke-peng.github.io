@@ -3,7 +3,7 @@ $( document ).ready(function() {
 $.fn.bounce = function(options) {
     
     var settings = $.extend({
-        speed: 10
+        speed: 50
     }, options);
 
     return $(this).each(function() {
@@ -68,7 +68,7 @@ $.fn.bounce = function(options) {
 
 $(function() {
     $('#wrapper li').bounce({
-        'speed': 2
+        'speed': 5
     });
 });
 
