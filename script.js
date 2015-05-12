@@ -1,3 +1,5 @@
+$( document ).ready(function() {
+
 $.fn.bounce = function(options) {
     
     var settings = $.extend({
@@ -70,3 +72,5 @@ $(function() {
     });
 });
 
+
+}); // KEEP ALL CODING BEFORE THIS CLOSING TAG
