@@ -9,6 +9,10 @@ body, * {
     background:lightgreen;
      z-index: 1;
 }
+ul{
+    style:none;
+}
+
 
 li {
     position: absolute;
