@@ -77,7 +77,7 @@ $(".about").hide();
 
 
 $(".button").click(function(){
-  $(".about").show();
+  $(".about").toggle();
   });
 
 });
