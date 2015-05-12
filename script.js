@@ -79,6 +79,6 @@ $(".about").hide();
 
 $(".button")click(function(){
     $(".about").show();
-}
+});
 
 }); // KEEP ALL CODING BEFORE THIS CLOSING TAG
