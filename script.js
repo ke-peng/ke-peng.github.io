@@ -68,7 +68,7 @@ $.fn.bounce = function(options) {
 
 $(function() {
     $('#wrapper li').bounce({
-        'speed': 2
+        'speed': 5
     });
 });
 
