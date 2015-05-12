@@ -62,28 +62,22 @@ $.fn.bounce = function(options) {
         };
         
         move($this);
-    };
+    });
 
-});
+};
 
 $(function() {
     $('#wrapper li').bounce({
         'speed': 2
     });
+});
 
-// HIDE ABOUT ME
 
 $(".about").hide();
-
-// CLICK TO SHOW ABOUT ME
-
-// $(".button").click(function() {
-//     $(".about").show();
-// });
 
 
 $(".button").click(function(){
   $(".about").show();
   });
 
-}); // KEEP ALL CODING BEFORE THIS CLOSING TAG
+});
