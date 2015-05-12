@@ -59,8 +59,8 @@ li {
 .button_wrapper {
     position:absolute;
     top:50px; left:50px;
-    width:200px; height:200px;
-    background:yellow;
+    width:180px; height:80px;
+    background:white;
 }
 
 
@@ -70,6 +70,5 @@ li {
     margin-top:-10px;
     margin-left:-50px;
     width:100px; height:20px;
-    background:red;
     text-align:center;
 }
