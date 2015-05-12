@@ -10,7 +10,7 @@ body, * {
      z-index: 1;
 }
 ul{
-    style:none;
+    list-style-type: none;
 }
 
 
