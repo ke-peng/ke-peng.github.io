@@ -10,7 +10,7 @@ body, * {
     height:100%; 
     margin:0;
     border: 1px solid red; 
-    background:lightgreen;
+    background:#88e2b9;
     overflow:hidden;
 }
 
