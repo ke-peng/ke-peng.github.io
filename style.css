@@ -54,3 +54,10 @@ li {
     width:200px; height:200px;
     background:yellow;
 }
+
+.button {
+    position:absolute;
+    top:50px; left:50px;
+    width:50px; height:25px;
+    background:white;
+}
