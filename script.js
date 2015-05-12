@@ -3,7 +3,7 @@ $( document ).ready(function() {
 $.fn.bounce = function(options) {
     
     var settings = $.extend({
-        speed: 50
+        speed: 100
     }, options);
 
     return $(this).each(function() {
