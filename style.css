@@ -1,7 +1,8 @@
 body, * {
     padding: 0 !important; margin: 0;
     overflow:hidden;
-    font-family: 'Hind', sans-serif, size:20pt;
+    font-family: 'Hind', sans-serif;
+    font-size: 20pt;
 }
 
 #wrapper {
