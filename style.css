@@ -9,8 +9,8 @@ body, * {
     margin:0;
     border: 1px solid red; 
     background:lightgreen;
-     z-index: 1;
 }
+
 ul{
     list-style-type: none;
 }
@@ -27,15 +27,6 @@ li {
     line-height: 60px;
     text-align:center;
     cursor:pointer; 
-}
-
-#foreground {
-    z-index: 999999999;
-}
-
-img {
-
-
 }
 
 .holder {
