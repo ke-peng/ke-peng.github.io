@@ -1,0 +1,52 @@
+body, * {
+    padding: 0 !important; margin: 0:
+}
+
+#wrapper {
+    width:100%; 
+    height:100%; 
+    border: 1px solid red; 
+    background:lightgreen;
+     z-index: 1;
+}
+
+li {
+    position: absolute;
+    width: 200px;
+    height: 200px;    
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background-color:;
+    line-height: 60px;
+    text-align:center;
+    cursor:pointer; 
+}
+
+#foreground {
+    z-index: 999999999;
+}
+
+img {
+
+
+}
+
+.holder {
+    position:absolute;
+    top:0;left:0;
+    width:100%;height:100%;
+    background:blue;
+}
+
+
+
+.pink_petals {
+    position:absolute;
+    top:0;left:0;
+    width:100%;height:100%;
+    background-image:url("http://i82.photobucket.com/albums/j273/Aqiles/tumblr_mqpoziggwt1s5jjtzo1_500.gif"); 
+    background-repeat:none;
+}
+
+
