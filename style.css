@@ -56,9 +56,17 @@ li {
     background:yellow;
 }
 
-.button {
+.button_wrapper {
     position:absolute;
     top:50px; left:50px;
     width:100px; height:60px;
     background:white;
+}
+
+
+.button {
+    position:absolute;
+    top:50%; left:50%;
+    /*width:100px; height:60px;*/
+    /*background:white;*/
 }
