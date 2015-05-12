@@ -60,7 +60,7 @@ li {
 .button_wrapper {
     position:absolute;
     top:50px; left:50px;
-    width:180px; height:70px;
+    border:9px solid white;
     background:white;
 }
 
