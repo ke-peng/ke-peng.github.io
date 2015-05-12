@@ -75,4 +75,10 @@ $(function() {
 
 $(".about").hide();
 
+// CLICK TO SHOW ABOUT ME
+
+$(".button")click(function(){
+    $(".about").show();
+}
+
 }); // KEEP ALL CODING BEFORE THIS CLOSING TAG
