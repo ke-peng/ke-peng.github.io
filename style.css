@@ -47,7 +47,7 @@ li {
 
 .about {
     position:absolute;
-    top:50%; left:50%; 
+    top:80%; left:80%; 
     width:200px; height:200px;
     background:yellow;
 }
