@@ -9,7 +9,7 @@ body, * {
     width:100%; 
     height:100%; 
     margin:0;
-    border: 1px solid red; 
+    border: 1px; 
     background:#88e2b9;
     overflow:hidden;
 }
