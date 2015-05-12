@@ -76,7 +76,7 @@ $(function() {
 $(".about").hide();
 
 
-$(".button").click(function(){
+$(".button, .buttonwrapper").click(function(){
   $(".about").toggle();
   });
 
